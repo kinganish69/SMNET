@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font: 15.5px Barlow, monospace;
+}
+
+a {
+    color: black !important;
+    text-decoration: none;
+}
+
+.logo {
+    width: 150px;
+}
+
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.smnetforeverything {
+    padding: 2px;
+    margin: 50px;
+}
+
+.smnetforeverything span {
+    font-size: 40px;
+}
+
+#smnetforeverything {
+    color: rgb(30, 0, 118);
+    font-weight: 900;
+}
+
+.blue {
+    color: rgb(30, 0, 118);
+
+}
+
+.residentialoffers {
+    font-size: 40px;
+}
+
+.residentialoffers-title {
+    font-size: 20px;
+}
+
+.bg-dim {
+    background-color: rgb(229, 229, 229);
+}
+
+.bg-gradient {
+    background: linear-gradient(90deg, rgb(208, 0, 0) 0%, rgb(0, 14, 142) 100%) !important;
+}
+
+.residential-container ul li .active {
+    border-bottom: 1px solid black !important;
+    color: red !important;
+}
+
+th, td{
+    padding: 20px !important;
+}
+th{
+    background-color: rgba(227, 230, 241, 0.6) !important;
+    border-radius: 10px;
+}
+
+.main-footer:before {
+    content: "";
+    display: block;
+    background-color: #1b3e77;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: .8;
+    z-index: -2;
+}
+.main-footer{
+    background:url(/images/bg-98.jpg);
+    /* background-color: #193869; */
+    background-size: cover;
+    position: relative;
+    z-index: 0;
+}
+
+.main-footer ul li {
+    padding-top: 20px;
+    /* list-style: none; */
+}
+.main-footer ul li:hover{
+    color: red;
+}
+
